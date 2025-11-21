@@ -180,6 +180,35 @@
   <a href="">[Project/Codes]</a>
 </p>
 <script>
+    function showBibTexICME25() {
+      const bibtex = `
+      @INPROCEEDINGS{11209596,
+        author={Huo, Yukang and Meng, Xianhui and Zhang, Li and Jiang, Haonan and Zhong, Yan and Yao, Mingyuan and Wang, Haihua},
+        booktitle={2025 IEEE International Conference on Multimedia and Expo (ICME)}, 
+        title={Diff-Art: Category-level Articulation Pose Estimation via Conditional Diffusion}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={1-6},
+        keywords={Point cloud compression;Accuracy;Pose estimation;Kinematics;Noise measurement;Joints;Artificial intelligence;Robots;Synthetic data;Articulations;Pose Estimation;Diffusion},
+        doi={10.1109/ICME59968.2025.11209596}
+      }`;
+      
+      const container = document.getElementById("bibContainer");
+      container.innerHTML = `
+        <textarea id="bibText">${bibtex}</textarea>
+        <button onclick="copyBibTex()">Copy</button>
+      `;
+    }
+
+    function copyBibTex() {
+      const textarea = document.getElementById("bibText");
+      textarea.select(); // 选中文本内容
+      document.execCommand("copy"); // 调用复制功能
+      alert("BibTeX copied to clipboard!"); // 提示用户已成功复制
+    }
+  </script>
+<!-- <script>
   function showBibTexICME25() {
     const bibtex = `
     @INPROCEEDINGS{11209596,
@@ -195,7 +224,7 @@
     }`;
     alert(bibtex); // 使用浏览器弹窗显示 BibTeX
   }
-</script>
+</script> -->
 <p><span style="color:red"><strong>[TL;DR:]</strong></span> <em>6D pose estimation via diffusion model.</em></p>
 
 
