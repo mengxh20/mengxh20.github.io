@@ -1,8 +1,11 @@
-@article{meng2025exploring,
+@inproceedings{meng2026exploring,
   title={Exploring Category-level Articulated Object Pose Tracking on SE (3) Manifolds},
   author={Meng, Xianhui and Huo, Yukang and Zhang, Li and Liu, Liu and Jiang, Haonan and Zhong, Yan and Zhang, Pingrui and Lu, Cewu and Liu, Jun},
-  journal={arXiv preprint arXiv:2511.05996},
-  year={2025}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={10},
+  pages={8016--8024},
+  year={2026}
 }
 @inproceedings{huo2025diff,
   title={Diff-Art: Category-level Articulation Pose Estimation via Conditional Diffusion},
@@ -28,5 +31,11 @@
   title={PRPO: Aligning Process Reward with Outcome Reward in Policy Optimization},
   author={Ding, Ruiyi and Lv, Yongxuan and Meng, Xianhui and Song, Jiahe and Wang, Chao and Jiang, Chen and Cheng, Yuan},
   journal={arXiv preprint arXiv:2601.07182},
+  year={2026}
+}
+@article{zhang2026dicart,
+  title={DICArt: Advancing Category-level Articulated Object Pose Estimation in Discrete State-Spaces},
+  author={Zhang, Li and Mei, Mingyu and Wang, Ailing and Meng, Xianhui and Zhong, Yan and Song, Xinyuan and Liu, Liu and Wang, Rujing and He, Zaixing and Lu, Cewu},
+  journal={arXiv preprint arXiv:2602.19565},
   year={2026}
 }
