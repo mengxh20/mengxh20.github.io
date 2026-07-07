@@ -8,6 +8,12 @@
   pages={8016--8024},
   year={2026}
 }
+@article{meng2026text,
+  title={Text-Driven 3D Indoor Scene Synthesis in Non-Manhattan Environments},
+  author={Meng, Xianhui and Song, Zirui and Zhang, Yuchen and Zhang, Li and Lv, Yongxuan and Chen, Xiuying and Wang, Kun and Luo, Yan and Chen, Kai and Ye, Hangjun and others},
+  journal={arXiv preprint arXiv:2607.02407},
+  year={2026}
+}
 @article{meng2025your,
   title={Is Your VLM for Autonomous Driving Safety-Ready? A Comprehensive Benchmark for Evaluating External and In-Cabin Risks},
   author={Meng, Xianhui and Zhang, Yuchen and Huang, Zhijian and Lu, Zheng and Ji, Ziling and Yin, Yaoyao and Zhang, Hongyuan and Jiang, Guangfeng and Lin, Yandan and Chen, Long and others},
@@ -22,16 +28,13 @@
   year={2025},
   organization={IEEE}
 }
-@ARTICLE{11480457,
+@article{zhang2026probing,
+  title={Probing Effective and Efficient Category-Level Articulated Object Pose Perception},
   author={Zhang, Li and Meng, Xianhui and Liu, Liu and Jiang, Haonan and Wang, Jianan and Wang, Rujing and Lu, Cewu and Liu, Jun and Zhang, Hong},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={Probing Effective and Efficient Category-Level Articulated Object Pose Perception}, 
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year={2026},
-  volume={},
-  number={},
-  pages={1-18},
-  keywords={Filtering;Videos;Video equipment;Communication systems;Electronic mail;Internet;Location awareness;Protocols;Computer networks;Mobile communication;Articulated Object;Pose Perception;Embodied AI},
-  doi={10.1109/TPAMI.2026.3682504}}
+  publisher={IEEE}
+}
 @article{hao2025mimo,
   title={MiMo-Embodied: X-Embodied Foundation Model Technical Report},
   author={Hao, Xiaoshuai and Zhou, Lei and Huang, Zhijian and Hou, Zhiwen and Tang, Yingbo and Zhang, Lingfeng and Li, Guang and Lu, Zheng and Ren, Shuhuai and Meng, Xianhui and others},
