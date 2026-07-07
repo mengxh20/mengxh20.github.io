@@ -53,3 +53,9 @@
   journal={arXiv preprint arXiv:2602.19565},
   year={2026}
 }
+@article{song2026evaluation,
+  title={The Evaluation Bottleneck of Vision-Language-Action Models: A Evaluation-Centric Survey},
+  author={Song, Zirui and Liu, Huaxing and Wang, Xiang and Li, Shuai and Li, Xinye and Ji, Yuheng and Gao, Lang and Zhang, Jinghui and Meng, Xianhui and Chang, Xiaojun and others},
+  year={2026},
+  publisher={Preprints}
+}
